@@ -1,6 +1,6 @@
 module "secret-module" {
     source = "../"
-    secret-name = "api/secrets-test"
+    secret-name = "api/secrets-test-01"
 
     secrets = {
         ENVIRONMENT = "development"
