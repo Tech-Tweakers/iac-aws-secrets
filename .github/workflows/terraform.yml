@@ -7,7 +7,7 @@ on:
       tfpath:
         description: 'TF File Path'     
         required: false
-        default: 'aws_samples/create_secretmanager'
+        default: 'terraform/aws'
 
 jobs:
   tf_code_check:
