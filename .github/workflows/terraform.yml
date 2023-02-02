@@ -4,13 +4,6 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
-    # Inputs the workflow expects.
-    inputs:
-      tfpath:
-        description: 'TF File Path'     
-        required: false
-        default: 'example/'
 
 jobs:
   tf_code_check:
