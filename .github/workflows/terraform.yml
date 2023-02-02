@@ -9,9 +9,6 @@ on:
         description: 'TF File Path'     
         required: false
         default: 'example/'
-  push:
-    branches:
-      - main
 
 jobs:
   tf_code_check:
