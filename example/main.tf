@@ -7,7 +7,7 @@ module "secret-module" {
         APP_VERSION = "1.0.0"
         APP_PORT = "9001"
         APP_URL = "https://localhost:9001"
-        AWS_REGION = "us-west-1"
+        AWS_REGION = "us-east-1"
         AWS_ENDPOINT = "https://dynamodb.us-east-1.amazonaws.com/"
         LOG_LEVEL = "debug"
         DEFAULT_PERSISTENT = "true"
